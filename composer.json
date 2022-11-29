@@ -1,0 +1,25 @@
+{
+    "name": "pyncer/cache",
+    "type": "library",
+    "description": "Pyncer implementation of PSR-6 and PSR-16.",
+    "homepage": "https://pyncer.com/cache",
+    "license": "Unlicense",
+    "require": {
+        "php": ">=8.1",
+        "psr/cache": "^3.0.0",
+        "psr/simple-cache": "^3.0.0",
+        "pyncer/core": "*",
+        "pyncer/database": "*",
+        "pyncer/exception": "*",
+        "pyncer/validation": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyncer\\Cache\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/pyncerrc/pyncer-cache/issues",
+        "source": "https://github.com/pyncerrc/pyncer-cache"
+    }
+}
